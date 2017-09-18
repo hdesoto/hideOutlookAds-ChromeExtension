@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "name": "Hide Outlook annoying right ad",
+    "version": "0.1",
+    "description": "It frustrates me how many space the web Outlook ads takes, and how annoying they are since they move and change constantly",
+    "content_scripts": [{
+        "css": ["styles.css"],
+        "js": ["code.js"],
+        "matches": ["https://outlook.live.com/mail/*"]
+    }]
+}
